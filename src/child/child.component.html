@@ -1,0 +1,7 @@
+<p>child works!</p>
+
+<label for="app-child">Add an item:</label>
+<input type="text" id="app-child" #newItem />
+<button type="button" (click)="addNewItem(newItem.value)">
+  Add to parent's list
+</button>
